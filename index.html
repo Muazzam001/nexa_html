@@ -32,7 +32,7 @@
     <link href="assets/styles/outer/helper/bootstrap-select.min.css" rel="stylesheet"/>
 
     <!-- Place your stylesheet here-->
-    <link rel="stylesheet" type="text/css" href="assets/styles/style.css?t=<?= time() ?>">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js does not work if you view the page via file -->
@@ -47,21 +47,17 @@
 <body>
 <!-- === HEADER STARTS === -->
 <header id="header" class="">
-    <div class="container">
-        <div class="main-nav">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler border-0 d-block p-1" type="button" data-toggle="collapse"
+    <div class="main-nav border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 ">
+                <button class="navbar-toggler border-0 d-block p-0 mt-md-2 w-8 text-md-left" type="button" data-toggle="collapse"
                         data-target="#navbar" aria-controls="navbar" aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="fas fa-bars icon-bar"></span>
                 </button>
-
-                <a class="navbar-brand ml-3" href="#">
-                    <img src="assets/images/logo.png" alt="Main Logo">
+                <a class="navbar-brand" href="javascript:void(0)">
+                    <img class="text-center" src="assets/images/logo-dark.png" alt="Main Logo">
                 </a>
-
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item active">
@@ -87,7 +83,8 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0 ml-auto">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                               aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
@@ -109,7 +106,92 @@
 <!-- === CONTENT ENDS === -->
 
 <!-- === FOOTER STARTS === -->
-<footer id="footer">
+<footer id="footer" class="bg-tertiary">
+    <div class="footer-widget-area">
+        <div class="container border-bottom py-5">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                    <div class="widget-item">
+                        <div class="about-widget text-center text-md-left">
+                            <a href="javascript:void(0);"><img src="assets/images/logo-light.png"
+                                                               alt="Footer Logo"/></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="widget-item">
+                        <div class="widget-body">
+                            <ul class="footer-nav list-inline d-md-inline-flex justify-content-md-center flex-md-row d-flex flex-column align-items-center w-100 my-3 my-md-0">
+                                <li>
+                                    <a href="javascript:void(0);">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">SHOP</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">TEAM</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="widget-item">
+                        <div class="widget-body">
+                            <ul class="social-nav list-inline d-inline-flex justify-content-center justify-content-md-end w-100 mb-0">
+                                <li>
+                                    <a href="javascript:void(0);" target="_blank" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" target="_blank" title="Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" target="_blank" title="Google+">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom-area">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="copyright-content">
+                        <p class="mb-md-0 text-md-left text-center">She gave my mother such a turn, that I have always
+                            been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="bottom-nav list-inline d-inline-flex justify-content-center justify-content-md-end w-100 mb-0">
+                        <li>
+                            <a href="javascript:void(0);">PRIVACY POLICY</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">TERMS AND CONDITIONS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 <!-- === FOOTER ENDS === -->
 

@@ -1,8 +1,18 @@
 /*      DEFAULTS      */
+
 body {
   font-family: $font-CrimsonText;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+  }
 
 }
 
@@ -113,29 +123,6 @@ body {
 }
 
 //Font Size End
-
-body {
-  //font-family: $font-myriad;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.banner-font {
-  //font-family: $font-raleway;
-  line-height: 1.5;
-}
-
-a {
-  //color: $blue;
-}
-
-/*      Colors      */
-
-/*      /Colors      */
-
-/*      Backgrounds      */
-
-/*      /Backgrounds      */
 
 /*      Rotations      */
 
@@ -291,8 +278,3 @@ a {
   width: 50px;
   height: 1px;
 }
-
-a {
-
-}
-
