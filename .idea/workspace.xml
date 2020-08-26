@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c95d4bc0-b2bb-4d6d-a529-a2fa70ef598d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gdHUBV1Ni2INvmKYovD8ptgAyt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scripts/outer/helper" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\scripts\outer\helper" />
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\outer\helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\outer\helper" />
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\scripts\outer\helper" />
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\custom\helper" />
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c95d4bc0-b2bb-4d6d-a529-a2fa70ef598d" name="Default Changelist" comment="" />
+      <created>1598437563027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598437563027</updated>
+      <workItem from="1598437567065" duration="6857000" />
+      <workItem from="1598447153431" duration="8231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="196" key="run.anything.popup" timestamp="1598443471863">
+      <screen x="0" y="0" width="1603" height="862" />
+    </state>
+    <state x="457" y="196" key="run.anything.popup/0.0.1603.862@0.0.1603.862" timestamp="1598443471863" />
+  </component>
+</project>
