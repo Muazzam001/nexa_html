@@ -4,6 +4,11 @@
     <list default="true" id="c95d4bc0-b2bb-4d6d-a529-a2fa70ef598d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/custom/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/custom/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/custom/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/custom/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/custom/medias.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/custom/medias.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/custom/partials/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/custom/partials/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/custom/partials/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/custom/partials/_variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -32,19 +37,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scripts/outer/helper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/styles/outer/helper" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\scripts\outer\helper" />
-      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\outer\helper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\outer\helper" />
       <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\scripts\outer\helper" />
       <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\custom\helper" />
       <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\styles\outer\helper" />
+      <recent name="E:\Installation\xampp\htdocs\nexa_psd_html\assets\scripts\outer\helper" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -71,7 +77,7 @@
       <updated>1598437563027</updated>
       <workItem from="1598437567065" duration="6857000" />
       <workItem from="1598447153431" duration="8231000" />
-      <workItem from="1598463892244" duration="26459000" />
+      <workItem from="1598463892244" duration="41446000" />
     </task>
     <servers />
   </component>
@@ -79,9 +85,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="196" key="run.anything.popup" timestamp="1598518373428">
+    <state x="547" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598530243961">
       <screen x="0" y="0" width="1603" height="862" />
     </state>
-    <state x="457" y="196" key="run.anything.popup/0.0.1603.862@0.0.1603.862" timestamp="1598518373428" />
+    <state x="547" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1603.862@0.0.1603.862" timestamp="1598530243961" />
+    <state x="457" y="196" key="run.anything.popup" timestamp="1598529014662">
+      <screen x="0" y="0" width="1603" height="862" />
+    </state>
+    <state x="457" y="196" key="run.anything.popup/0.0.1603.862@0.0.1603.862" timestamp="1598529014662" />
   </component>
 </project>

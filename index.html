@@ -45,17 +45,20 @@
 </head>
 
 <body>
+
 <!-- === HEADER STARTS === -->
 <header id="header" class="">
+
+    <!--== Primary Nav Starts ==-->
     <div class="main-nav border-bottom">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0 ">
-                <button class="navbar-toggler border-0 d-block p-0 pt-1 pt-lg-2 w-8 text-md-left" type="button"
+                <button class="navbar-toggler border-0 d-block p-0 pt-1 pt-lg-2 w-6 text-md-left" type="button"
                         data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span class="fas fa-bars icon-bar"></span>
                 </button>
-                <a class="navbar-brand pl-0 pl-lg-3 border-left py-lg-4" href="javascript:void(0)">
+                <a class="navbar-brand pl-0 pl-lg-4 py-lg-4 border-left" href="javascript:void(0)">
                     <img class="text-center" src="assets/images/logo-dark.png" alt="Main Logo">
                 </a>
                 <div class="collapse navbar-collapse" id="navbar">
@@ -76,20 +79,98 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                     </ul>
-                    <form class="header-cart form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
+                    <form class="form-cart form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
                         <button class="btn btn-cart my-2 my-sm-0" type="submit"><i class="fas fa-shopping-cart"></i>
                             <span>CART <span class="badge bg-tinted-gray rounded-circle p-2">0</span></span></button>
                     </form>
-                    <form class="header-register form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
-                        <button class="btn btn-register my-2 my-sm-0" type="submit">SIGN IN</button>
+                    <form class="form-register form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
+                        <button class="btn btn-register my-2 my-sm-0 px-3" type="submit">SIGN IN</button>
                     </form>
                 </div>
             </nav>
         </div>
-        <div class="sub-nav"></div>
     </div>
+    <!--== Primary Nav Ends ==-->
+
+    <!--== Secondary Nav Starts ==-->
+    <div class="sub-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div id="navbarSecondary"
+                     class="navbar-secondary d-flex flex-lg-row justify-content-lg-between flex-column align-items-center w-100 py-3">
+                    <ul class="navbar-nav w-100 pr-lg-3 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TOP SALES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BRAND FOCUS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#">HI-TECH <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BEST SELLERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item ml-lg-auto">
+                            <a class="nav-link nav-support" href="#">SUPPORT</a>
+                        </li>
+                    </ul>
+                    <form class="form-search form-inline my-2 my-lg-0 position-relative">
+                        <i class="fas fa-search position-absolute"></i>
+                        <input class="form-control search-input border-0 pr-2 py-1 w-100" type="search"
+                               placeholder="I'm looking for" aria-label="Search">
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--== Secondary Nav Ends ==-->
+
 </header>
 <!-- === HEADER ENDS === -->
+
+<!--=== SLIDER STARTS ===-->
+<div id="carouselMain" class="main-carousel carousel slide carousel-fade bg-primary h-100 position-relative"
+     data-ride="carousel">
+    <div class="container position-relative h-100">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselMain" data-slide-to="1"></li>
+            <li data-target="#carouselMain" data-slide-to="2"></li>
+            <li data-target="#carouselMain" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item w-100 h-100 active ">
+                <div class="carousel-item-wrapper d-flex justify-content-between w-100 h-100">
+                    <div class="carousel-caption left d-none d-lg-block w-lg-50 text-lg-left pr-lg-5">
+                        <h3 class="carousel-heading mb-4">iPhone 6 32Gb<br>Black</h3>
+                        <p class="carousel-desc mb-lg-4 pr-lg-5">At first, for some time, I was not able to answer him
+                            one word; but as he had taken me in his arms I held fast by him, or I should have fallen to
+                            the ground.</p>
+                        <a class="btn carousel-btn px-lg-5 py-lg-3" href="javascript:void(0);">BUY NOW</a>
+                    </div>
+                    <div class="carousel-image right w-100 w-lg-50 position-absolute">
+                        <img src="assets/images/slider_1.jpg" class="d-block mx-auto" alt="Slider 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <a class="carousel-control carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control carousel-control-next" href="#carouselMain" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--=== SLIDER ENDS ===-->
 
 <!-- === CONTENT STARTS === -->
 
@@ -203,8 +284,6 @@
 
 <!-- Bootstrap core scripts -->
 <script src="assets/scripts/outer/helper/bootstrap.min.js"></script>
-
-<script src="assets/scripts/outer/helper/bootstrap-select.min.js"></script>
 
 <!-- Place your scripts here-->
 <script src="assets/scripts/custom/script.js"></script>

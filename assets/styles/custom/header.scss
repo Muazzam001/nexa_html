@@ -1,5 +1,5 @@
 /*      HEADER      */
-/*    Home Banner    */
+/*    Navigations    */
 
 .main-nav {
 
@@ -19,22 +19,24 @@
       .navbar-nav {
 
         .nav-link {
-          font-family: $font-Montserrat-Medium;
+          font-family: $font-Montserrat-SemiBold;
+          padding-right: 0.75rem;
+          padding-left: 0.75rem;
           color: $primary;
         }
 
       }
 
-      .header-cart, .header-register {
+      .form-cart, .form-register {
 
         button {
 
           &.btn {
-            font-size: 1rem;
+            font-size: 0.85rem;
 
             &:hover, &:focus, &:active {
-              outline: none;
               box-shadow: none;
+              outline: none;
             }
 
           }
@@ -43,7 +45,7 @@
 
       }
 
-      .header-register {
+      .form-register {
 
         button {
 
@@ -66,12 +68,66 @@
 
 }
 
-.banner-section {
-  min-height: 600px;
-  max-height: 600px;
+.sub-nav {
+
+  nav {
+
+    .navbar-secondary {
+
+      .navbar-nav {
+
+        .nav-link {
+          color: $secondary;
+          font-size: 0.85rem;
+
+          &:hover, &:hover, &:active, &.active {
+            color: $primary;
+          }
+
+        }
+
+      }
+
+      .form-search {
+        max-width: 200px;
+
+        input {
+
+          &.search-input {
+            padding-left: 2rem;
+            color: $primary;
+
+            &::placeholder {
+
+              &, &:hover, &:hover, &:active {
+                color: $secondary;
+              }
+
+            }
+
+            &:hover, &:hover, &:active {
+              box-shadow: none;
+              outline: none;
+            }
+
+          }
+
+        }
+
+        .fa-search {
+          left: 0.5rem;
+          color: $primary;
+        }
+
+      }
+
+    }
+
+  }
+
 }
 
-/* /Home Banner */
+/* /Navigations */
 /*      /HEADER      */
 
 
