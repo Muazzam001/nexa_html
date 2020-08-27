@@ -27,6 +27,22 @@
     padding-bottom: 50px;
   }
 
+  .main-nav {
+
+    nav {
+
+      .navbar-brand {
+
+        &.border-left {
+          border-left: none !important;
+        }
+
+      }
+
+    }
+
+  }
+
 }
 
 /* Small devices (landscape phones, less than 768px)*/

@@ -1,17 +1,33 @@
 /*      HEADER      */
 /*    Home Banner    */
 
-.navbar-toggler {
-  font-size: 1.5rem;
-  padding-top: 0.5rem !important;
-
-  .icon-bar {
-    color: $primary;
-  }
-
-}
-
 .main-nav {
+
+  nav {
+
+    .navbar-toggler {
+      font-size: 1.5rem;
+
+      .icon-bar {
+        color: $primary;
+      }
+
+    }
+
+    .navbar-collapse {
+
+      .navbar-nav {
+
+        .nav-link {
+          font-family: $font-Montserrat-Medium;
+          color: $primary;
+        }
+
+      }
+
+    }
+
+  }
 
 }
 
