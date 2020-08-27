@@ -6,10 +6,8 @@
   nav {
 
     .navbar-toggler {
-      font-size: 1.5rem;
 
       .icon-bar {
-        color: $primary;
       }
 
     }
@@ -32,7 +30,6 @@
         button {
 
           &.btn {
-            font-size: 0.85rem;
 
             &:hover, &:focus, &:active {
               box-shadow: none;
@@ -53,7 +50,6 @@
 
             &.btn-register {
               border: 2px solid $tinted-gray;
-              border-radius: 1.5rem;
             }
 
           }
@@ -95,7 +91,6 @@
 
           &.search-input {
             padding-left: 2rem;
-            color: $primary;
 
             &::placeholder {
 
@@ -116,7 +111,6 @@
 
         .fa-search {
           left: 0.5rem;
-          color: $primary;
         }
 
       }
@@ -128,6 +122,7 @@
 }
 
 /* /Navigations */
+
 /*      /HEADER      */
 
 

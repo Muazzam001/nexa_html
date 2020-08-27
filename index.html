@@ -53,10 +53,11 @@
     <div class="main-nav border-bottom">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0 ">
-                <button class="navbar-toggler border-0 d-block p-0 pt-1 pt-lg-2 w-6 text-md-left" type="button"
+                <button class="navbar-toggler border-0 d-block p-0 pt-1 pt-lg-2 w-6 text-lg-left font-size-lg-18"
+                        type="button"
                         data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span class="fas fa-bars icon-bar"></span>
+                    <span class="fas fa-bars icon-bar color-primary"></span>
                 </button>
                 <a class="navbar-brand pl-0 pl-lg-4 py-lg-4 border-left" href="javascript:void(0)">
                     <img class="text-center" src="assets/images/logo-dark.png" alt="Main Logo">
@@ -80,11 +81,14 @@
                         </li>
                     </ul>
                     <form class="form-cart form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
-                        <button class="btn btn-cart my-2 my-sm-0" type="submit"><i class="fas fa-shopping-cart"></i>
+                        <button class="btn btn-cart my-2 my-sm-0 font-size-lg-10" type="submit"><i
+                                class="fas fa-shopping-cart"></i>
                             <span>CART <span class="badge bg-tinted-gray rounded-circle p-2">0</span></span></button>
                     </form>
                     <form class="form-register form-inline my-2 my-lg-0 ml-auto" action="javascript:void(0);">
-                        <button class="btn btn-register my-2 my-sm-0 px-3" type="submit">SIGN IN</button>
+                        <button class="btn btn-register my-2 my-sm-0 px-3 font-size-lg-10 border-radius-lg-25"
+                                type="submit">SIGN IN
+                        </button>
                     </form>
                 </div>
             </nav>
@@ -119,8 +123,8 @@
                         </li>
                     </ul>
                     <form class="form-search form-inline my-2 my-lg-0 position-relative">
-                        <i class="fas fa-search position-absolute"></i>
-                        <input class="form-control search-input border-0 pr-2 py-1 w-100" type="search"
+                        <i class="fas fa-search position-absolute color-primary"></i>
+                        <input class="form-control search-input border-0 pr-2 py-1 w-100 color-primary" type="search"
                                placeholder="I'm looking for" aria-label="Search">
                     </form>
                 </div>
@@ -132,50 +136,229 @@
 </header>
 <!-- === HEADER ENDS === -->
 
-<!--=== SLIDER STARTS ===-->
-<div id="carouselMain" class="main-carousel carousel slide carousel-fade bg-primary h-100 position-relative"
-     data-ride="carousel">
-    <div class="container position-relative h-100">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselMain" data-slide-to="1"></li>
-            <li data-target="#carouselMain" data-slide-to="2"></li>
-            <li data-target="#carouselMain" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item w-100 h-100 active ">
-                <div class="carousel-item-wrapper d-flex justify-content-between w-100 h-100">
-                    <div class="carousel-caption left d-none d-lg-block w-lg-50 text-lg-left pr-lg-5">
-                        <h3 class="carousel-heading mb-4">iPhone 6 32Gb<br>Black</h3>
-                        <p class="carousel-desc mb-lg-4 pr-lg-5">At first, for some time, I was not able to answer him
-                            one word; but as he had taken me in his arms I held fast by him, or I should have fallen to
-                            the ground.</p>
-                        <a class="btn carousel-btn px-lg-5 py-lg-3" href="javascript:void(0);">BUY NOW</a>
+<!-- === CONTENT STARTS === -->
+
+<main id="main" class="bg-gray">
+
+    <!--=== Slider Starts ===-->
+    <div id="carouselMain" class="main-carousel carousel slide carousel-fade bg-primary h-100 bg-tertiary"
+         data-ride="carousel">
+        <div class="container position-relative h-100">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMain" data-slide-to="1"></li>
+                <li data-target="#carouselMain" data-slide-to="2"></li>
+                <li data-target="#carouselMain" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item w-100 h-100 active ">
+                    <div class="carousel-item-wrapper d-flex justify-content-between w-100 h-100">
+                        <div class="carousel-caption left d-none d-lg-block w-lg-50 text-lg-left pr-lg-5">
+                            <h3 class="carousel-heading font-size-lg-33 mb-4">iPhone 6 32Gb<br>Black</h3>
+                            <p class="carousel-desc font-size-lg-11 mb-lg-4 pr-lg-5">At first, for some time, I was not
+                                able
+                                to answer him one word; but as he had taken me in his arms I held fast by him, or I
+                                should
+                                have fallen to the ground.</p>
+                            <a class="btn bg-button color-white carousel-btn border-radius-lg-70 px-lg-5 py-lg-3"
+                               href="javascript:void(0);">BUY NOW</a>
+                        </div>
+                        <div class="carousel-image right w-100 w-lg-50 position-absolute">
+                            <img src="assets/images/slider_1.jpg" class="d-block mx-auto" alt="Slider 1">
+                        </div>
                     </div>
-                    <div class="carousel-image right w-100 w-lg-50 position-absolute">
-                        <img src="assets/images/slider_1.jpg" class="d-block mx-auto" alt="Slider 1">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <a class="carousel-control carousel-control-prev rounded-circle border-secondary" href="#carouselMain"
+                   role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control carousel-control-next rounded-circle border-secondary" href="#carouselMain"
+                   role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--=== Slider Ends ===-->
+
+    <div class="spacer d-block py-4 my-2"></div>
+
+    <!-- == Sorting Starts == -->
+    <section id="sorting" class="sorting-section ">
+        <div class="container bg-white rounded">
+            <div class="row align-items-center py-4">
+                <div class="col">
+                    <div class="section-details text-center">
+                        <h6 class="section-title mb-0">Sorting</h6>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-controls">
-            <a class="carousel-control carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control carousel-control-next" href="#carouselMain" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+    </section>
+    <!-- == Sorting Ends == -->
+
+    <div class="spacer d-block py-4 my-2"></div>
+
+    <!-- == Product Section Starts == -->
+    <section id="product_display" class="product-section ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-lg-9 order-lg-last">
+                    <div class="row mr-lg-n6">
+                        <div class="col-12 col-lg-4">
+                            <div class="bg-white rounded mx-n4 mx-lg-n0">Inner Product</div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="bg-white rounded mx-n4 mx-lg-n0">Inner Product</div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="bg-white rounded mx-n4 mx-lg-n0">Inner Product</div>
+                        </div>
+                    </div>
+
+                    <div class="spacer d-block py-2 my-1"></div>
+
+                    <div class="row mr-lg-n6">
+                        <div class="col-12 col-lg-4">
+                            <div class="bg-white rounded mx-n4 mx-lg-n0">Inner Product</div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="bg-white rounded mx-n4 mx-lg-n0">Inner Product</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 order-lg-first">
+                    <aside class="bg-white rounded mx-n4 ml-lg-n4 mr-lg-n0">MENU</aside>
+
+                    <div class="spacer d-block py-2 my-1"></div>
+
+                    <aside class="bg-white rounded mx-n4 ml-lg-n4 mr-lg-n0">AVAILABLE</aside>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<!--=== SLIDER ENDS ===-->
+    </section>
+    <!-- == Product Section Ends == -->
 
-<!-- === CONTENT STARTS === -->
+    <div class="spacer d-block py-4 my-2"></div>
 
-<main id="main">
-    <i class="far fa-address-book"></i>
+    <!-- == Pagination Starts == -->
+    <section id="pagination" class="pagination-section ">
+        <div class="container bg-white rounded">
+            <div class="row align-items-center py-4">
+                <div class="col">
+                    <div class="section-details text-center">
+                        <h6 class="section-title mb-0">Pagination</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- == Pagination Ends == -->
+
+    <div class="spacer d-block py-4 my-2"></div>
+
+    <!-- == Best Seller Starts == -->
+    <section id="best_seller" class="best_seller-section ">
+        <div class="container bg-white rounded">
+            <div class="row align-items-center py-3">
+                <div class="col">
+                    <div class="section-details text-center">
+                        <h6 class="section-title mb-0">BEST SELLER</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center border border-gray">
+                <div class="col col-lg-3">
+                    <i class="far fa-address-book"></i>
+                </div>
+                <div class="col col-lg-3">
+                    <i class="far fa-address-book"></i>
+                </div>
+                <div class="col col-lg-3">
+                    <i class="far fa-address-book"></i>
+                </div>
+                <div class="col col-lg-3">
+                    <i class="far fa-address-book"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- == Best Seller Ends == -->
+
+    <div class="spacer d-block py-4 my-2"></div>
+
+    <!-- == Testimonials Starts == -->
+    <section id="testimonials" class="testimonial-section section-padding1 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="section-details text-center mb-5">
+                        <h3 class="section-bigtitle">What Our Customers Have to Say</h3>
+                        <h5 class="section-subtitle">Couple of Words About This Stories Section</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col col-lg-4">
+                    <div class="testimonial-item py-4 py-lg-0">
+                        <div class="testimonial-item-header d-flex justify-content-center justify-content-lg-start">
+                            <div class="author-image">
+                                <img src="assets/images/photo_1.png" alt="Author Image">
+                            </div>
+                            <div class="author-detail ml-3 d-flex flex-column">
+                                <h5 class="author-name mb-0">Celia Fields</h5>
+                                <h6 class="author-designation mb-0">UX Expert</h6>
+                            </div>
+                        </div>
+                        <div class="testimonial-item-detail mt-3 pr-lg-5">
+                            <p class="mb-0 pr-lg-3 font-size-lg-11">This I have produced as a scantling of Jack’s great
+                                eloquence and the force of his reasoning upon such abstruse matters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div class="testimonial-item py-4 py-lg-0">
+                        <div class="testimonial-item-header d-flex justify-content-center justify-content-lg-start">
+                            <div class="author-image">
+                                <img src="assets/images/photo_2.png" alt="Author Image">
+                            </div>
+                            <div class="author-detail ml-3 d-flex flex-column">
+                                <h5 class="author-name mb-0">Alexander Lee</h5>
+                                <h6 class="author-designation mb-0">Founder</h6>
+                            </div>
+                        </div>
+                        <div class="testimonial-item-detail mt-3 pr-lg-5">
+                            <p class="mb-0 pr-lg-3 font-size-lg-11">Looking cautiously round, to ascertain that they
+                                were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div class="testimonial-item py-4 py-lg-0">
+                        <div class="testimonial-item-header d-flex justify-content-center justify-content-lg-start">
+                            <div class="author-image">
+                                <img src="assets/images/photo_3.png" alt="Author Image">
+                            </div>
+                            <div class="author-detail ml-3 d-flex flex-column">
+                                <h5 class="author-name mb-0">Lenora Sandoval</h5>
+                                <h6 class="author-designation mb-0">Product Manager</h6>
+                            </div>
+                        </div>
+                        <div class="testimonial-item-detail mt-3 pr-lg-5">
+                            <p class="mb-0 pr-lg-3 font-size-lg-11">This sounded a very good reason, and Alice was quite
+                                pleased to know it. 'I never thought of that before!' she said.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- == Testimonials Ends == -->
+
 </main>
 
 <!-- === CONTENT ENDS === -->
@@ -185,7 +368,7 @@
     <div class="footer-widget-area">
         <div class="container border-bottom py-5">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-2">
+                <div class="col col-lg-2">
                     <div class="widget-item">
                         <div class="about-widget text-center text-md-left">
                             <a href="javascript:void(0);"><img src="assets/images/logo-light.png"
@@ -194,7 +377,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-8">
+                <div class="col col-lg-8">
                     <div class="widget-item">
                         <div class="widget-body">
                             <ul class="footer-nav list-inline d-md-inline-flex justify-content-md-center flex-md-row d-flex flex-column align-items-center w-100 my-3 my-md-0">
@@ -218,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-2">
+                <div class="col col-lg-2">
                     <div class="widget-item">
                         <div class="widget-body">
                             <ul class="social-nav list-inline d-inline-flex justify-content-center justify-content-md-end w-100 mb-0">
@@ -250,7 +433,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="copyright-content">
-                        <p class="mb-md-0 text-md-left text-center">She gave my mother such a turn, that I have always
+                        <p class="mb-md-0 text-md-left text-center font-italic">She gave my mother such a turn, that I
+                            have always
                             been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
