@@ -740,33 +740,33 @@
 
   @for $i from 0 through 10 {
 
-    .mg-xl-n-#{$i} {
+    .mg-xl-n#{$i} {
       margin: -#{$i/4}rem !important;
     }
 
-    .mgx-xl-n-#{$i} {
+    .mgx-xl-n#{$i} {
       margin-left: -#{$i/4}rem !important;
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mgy-xl-n-#{$i} {
+    .mgy-xl-n#{$i} {
       margin-top: -#{$i/4}rem !important;
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mgt-xl-n-#{$i} {
+    .mgt-xl-n#{$i} {
       margin-top: -#{$i/4}rem !important;
     }
 
-    .mgr-xl-n-#{$i} {
+    .mgr-xl-n#{$i} {
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mgb-xl-n-#{$i} {
+    .mgb-xl-n#{$i} {
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mgl-xl-n-#{$i} {
+    .mgl-xl-n#{$i} {
       margin-left: -#{$i/4}rem !important;
     }
 
