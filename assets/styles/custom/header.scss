@@ -25,6 +25,41 @@
 
       }
 
+      .header-cart, .header-register {
+
+        button {
+
+          &.btn {
+            font-size: 1rem;
+
+            &:hover, &:focus, &:active {
+              outline: none;
+              box-shadow: none;
+            }
+
+          }
+
+        }
+
+      }
+
+      .header-register {
+
+        button {
+
+          &.btn {
+
+            &.btn-register {
+              border: 2px solid $tinted-gray;
+              border-radius: 1.5rem;
+            }
+
+          }
+
+        }
+
+      }
+
     }
 
   }
