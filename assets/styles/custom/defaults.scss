@@ -158,35 +158,35 @@ a {
 
 //Negative Margin Start
 
-@for $i from 0 through 6 {
+@for $i from 0 through 10 {
 
-  .m-n#{$i} {
+  .mg-n#{$i} {
     margin: -#{$i/4}rem !important;
   }
 
-  .mx-n#{$i} {
+  .mgx-n#{$i} {
     margin-left: -#{$i/4}rem !important;
     margin-right: -#{$i/4}rem !important;
   }
 
-  .my-n#{$i} {
+  .mgy-n#{$i} {
     margin-top: -#{$i/4}rem !important;
     margin-bottom: -#{$i/4}rem !important;
   }
 
-  .mt-n#{$i} {
+  .mgt-n#{$i} {
     margin-top: -#{$i/4}rem !important;
   }
 
-  .mr-n#{$i} {
+  .mgr-n#{$i} {
     margin-right: -#{$i/4}rem !important;
   }
 
-  .mb-n#{$i} {
+  .mgb-n#{$i} {
     margin-bottom: -#{$i/4}rem !important;
   }
 
-  .ml-n#{$i} {
+  .mgl-n#{$i} {
     margin-left: -#{$i/4}rem !important;
   }
 

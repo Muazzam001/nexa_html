@@ -136,35 +136,35 @@
 
   //Negative Margin Start
 
-  @for $i from 0 through 6 {
+  @for $i from 0 through 10 {
 
-    .m-sm-n#{$i} {
+    .mg-sm-n#{$i} {
       margin: -#{$i/4}rem !important;
     }
 
-    .mx-sm-n#{$i} {
+    .mgx-sm-n#{$i} {
       margin-left: -#{$i/4}rem !important;
       margin-right: -#{$i/4}rem !important;
     }
 
-    .my-sm-n#{$i} {
+    .mgy-sm-n#{$i} {
       margin-top: -#{$i/4}rem !important;
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mt-sm-n#{$i} {
+    .mgt-sm-n#{$i} {
       margin-top: -#{$i/4}rem !important;
     }
 
-    .mr-sm-n#{$i} {
+    .mgr-sm-n#{$i} {
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mb-sm-n#{$i} {
+    .mgb-sm-n#{$i} {
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .ml-sm-n#{$i} {
+    .mgl-sm-n#{$i} {
       margin-left: -#{$i/4}rem !important;
     }
 
@@ -324,35 +324,35 @@
 
   //Negative Margin Start
 
-  @for $i from 0 through 6 {
+  @for $i from 0 through 10 {
 
-    .m-md-n#{$i} {
+    .mg-md-n#{$i} {
       margin: -#{$i/4}rem !important;
     }
 
-    .mx-md-n#{$i} {
+    .mgx-md-n#{$i} {
       margin-left: -#{$i/4}rem !important;
       margin-right: -#{$i/4}rem !important;
     }
 
-    .my-md-n#{$i} {
+    .mgy-md-n#{$i} {
       margin-top: -#{$i/4}rem !important;
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mt-md-n#{$i} {
+    .mgt-md-n#{$i} {
       margin-top: -#{$i/4}rem !important;
     }
 
-    .mr-md-n#{$i} {
+    .mgr-md-n#{$i} {
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mb-md-n#{$i} {
+    .mgb-md-n#{$i} {
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .ml-md-n#{$i} {
+    .mgl-md-n#{$i} {
       margin-left: -#{$i/4}rem !important;
     }
 
@@ -544,35 +544,35 @@
 
   //Negative Margin Start
 
-  @for $i from 0 through 6 {
+  @for $i from 0 through 10 {
 
-    .m-lg-n#{$i} {
+    .mg-lg-n#{$i} {
       margin: -#{$i/4}rem !important;
     }
 
-    .mx-lg-n#{$i} {
+    .mgx-lg-n#{$i} {
       margin-left: -#{$i/4}rem !important;
       margin-right: -#{$i/4}rem !important;
     }
 
-    .my-lg-n#{$i} {
+    .mgy-lg-n#{$i} {
       margin-top: -#{$i/4}rem !important;
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mt-lg-n#{$i} {
+    .mgt-lg-n#{$i} {
       margin-top: -#{$i/4}rem !important;
     }
 
-    .mr-lg-n#{$i} {
+    .mgr-lg-n#{$i} {
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mb-lg-n#{$i} {
+    .mgb-lg-n#{$i} {
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .ml-lg-n#{$i} {
+    .mgl-lg-n#{$i} {
       margin-left: -#{$i/4}rem !important;
     }
 
@@ -738,35 +738,35 @@
 
   //Negative Margin Start
 
-  @for $i from 0 through 5 {
+  @for $i from 0 through 10 {
 
-    .m-xl-n-#{$i} {
+    .mg-xl-n-#{$i} {
       margin: -#{$i/4}rem !important;
     }
 
-    .mx-xl-n-#{$i} {
+    .mgx-xl-n-#{$i} {
       margin-left: -#{$i/4}rem !important;
       margin-right: -#{$i/4}rem !important;
     }
 
-    .my-xl-n-#{$i} {
+    .mgy-xl-n-#{$i} {
       margin-top: -#{$i/4}rem !important;
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .mt-xl-n-#{$i} {
+    .mgt-xl-n-#{$i} {
       margin-top: -#{$i/4}rem !important;
     }
 
-    .mr-xl-n-#{$i} {
+    .mgr-xl-n-#{$i} {
       margin-right: -#{$i/4}rem !important;
     }
 
-    .mb-xl-n-#{$i} {
+    .mgb-xl-n-#{$i} {
       margin-bottom: -#{$i/4}rem !important;
     }
 
-    .ml-xl-n-#{$i} {
+    .mgl-xl-n-#{$i} {
       margin-left: -#{$i/4}rem !important;
     }
 
