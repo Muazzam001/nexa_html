@@ -109,6 +109,37 @@
 
 /*     /Carousel Banner      */
 
+.pagination-wrapper {
+
+  .pagination-arrow, .pagination-link {
+    font-size: 1rem;
+    color: $primary;
+
+    &.active, &:hover, &:focus, &:active {
+      color: $secondary;
+    }
+
+  }
+
+  .pagination-link {
+    margin: auto 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.active {
+      background: $white;
+      border-radius: 50%;
+      padding: 15px;
+      box-shadow: 1px 3px 3px;
+    }
+
+  }
+
+}
+
 /*      Best Seller      */
 
 .product-item {
