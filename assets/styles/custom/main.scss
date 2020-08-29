@@ -1,4 +1,19 @@
-/*     MAIN CAROUSEL       */
+.section-details {
+
+  .section-bigtitle {
+    font-family: $font-Montserrat-Black;
+  }
+
+  .section-title {
+  }
+
+  .section-subtitle {
+    font-family: $font-CrimsonText;
+  }
+
+}
+
+/*     Carousel Banner       */
 
 .main-carousel {
 
@@ -92,13 +107,50 @@
 
 }
 
-/*      /MAIN CAROUSEL      */
+/*     /Carousel Banner      */
 
-/*      ABOUT MAIN      */
+/*      Best Seller      */
 
-/*      /ABOUT MAIN      */
+.product-item {
 
-/*      CONTACT MAIN      */
+  .product-image {
+    width: 200px;
+    height: 200px;
 
-/*      /CONTACT MAIN      */
+    img {
 
+    }
+
+  }
+
+}
+
+/*      /Best Seller      */
+
+/*      Testimonials       */
+
+.testimonial-item {
+
+  .testimonial-item-header {
+
+    .author-name {
+      font-family: $font-Montserrat-SemiBold;
+    }
+
+    .author-designation {
+      font-family: $font-CrimsonText;
+    }
+
+  }
+
+  .testimonial-item-detail {
+
+    p {
+      font-family: $font-CrimsonText;
+    }
+
+  }
+
+}
+
+/*      /Testimonials     */
