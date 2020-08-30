@@ -190,10 +190,27 @@
     <!-- == Sorting Starts == -->
     <section id="sorting" class="sorting-section ">
         <div class="container bg-white rounded">
-            <div class="row align-items-center py-4">
-                <div class="col">
-                    <div class="section-details text-center">
-                        <h6 class="section-title mb-0">Sorting</h6>
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="sorting-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2">
+                                <div class="mx-lg-n3 px-lg-3 d-flex align-items-center">
+                                    <span class="color-secondary">SORT BY: </span>
+                                    <span class="custom-select-wrapper">
+                                        <select class="custom-select border-0">
+                                            <option>Best Match</option>
+                                            <option>Newest</option>
+                                            <option>Trending</option>
+                                            <option>Price</option>
+                                            <option>Best Rated</option>
+                                        </select>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 border-left border-right py-3">Keyword</div>
+                            <div class="col-lg-2">Ship</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -248,7 +265,7 @@
     <!-- == Pagination Starts == -->
     <section id="pagination" class="pagination-section ">
         <div class="container bg-white rounded">
-            <div class="row align-items-center py-4">
+            <div class="row align-items-center py-3">
                 <div class="col">
                     <div class="pagination-wrapper mw-lg-85 d-flex justify-content-lg-between align-items-center mx-auto">
                         <div class="pagination-arrow arrow-prev"><i class="fas fa-chevron-left"></i></div>
@@ -279,14 +296,14 @@
         <div class="container bg-white rounded">
             <div class="row align-items-center py-3">
                 <div class="col">
-                    <div class="section-details text-center">
+                    <div class="section-details text-center py-lg-1">
                         <h6 class="section-title mb-0 color-primary">BEST SELLER</h6>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center border-top border-gray">
                 <div class="col-12 col-lg-3">
-                    <div class="product-item d-flex flex-column align-items-center py-lg-4">
+                    <div class="product-item d-flex flex-column align-items-center mx-lg-n3 pt-lg-4 pb-lg-5">
                         <div class="product-image my-2 d-flex justify-content-center align-items-end">
                             <img class="img-fluid h-80" src="assets/images/best_product_1.png" alt="Product Image">
                         </div>
@@ -301,7 +318,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3">
-                    <div class="product-item d-flex flex-column align-items-center py-lg-4">
+                    <div class="product-item d-flex flex-column align-items-center mx-lg-n3 pt-lg-4 pb-lg-5">
                         <div class="product-image my-2 d-flex justify-content-center align-items-end">
                             <img class="img-fluid h-100" src="assets/images/best_product_2.png" alt="Product Image">
                         </div>
@@ -316,7 +333,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3">
-                    <div class="product-item d-flex flex-column align-items-center py-lg-4">
+                    <div class="product-item d-flex flex-column align-items-center mx-lg-n3 pt-lg-4 pb-lg-5">
                         <div class="product-image my-2 d-flex justify-content-center align-items-end">
                             <img class="img-fluid h-100" src="assets/images/best_product_3.png" alt="Product Image">
                         </div>
@@ -331,7 +348,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3">
-                    <div class="product-item d-flex flex-column align-items-center py-lg-4">
+                    <div class="product-item d-flex flex-column align-items-center mx-lg-n3 pt-lg-4 pb-lg-5">
                         <div class="product-image my-2 d-flex justify-content-center align-items-end">
                             <img class="img-fluid h-100" src="assets/images/best_product_4.png" alt="Product Image">
                         </div>
@@ -543,6 +560,8 @@
 <script src="assets/scripts/outer/helper/bootstrap.min.js"></script>
 
 <!-- Place your scripts here-->
+<script src="assets/scripts/outer/helper/bootstrap-select.min.js"></script>
+
 <script src="assets/scripts/custom/script.js"></script>
 
 <script src="assets/scripts/custom/jq-script.js"></script>
