@@ -29,9 +29,6 @@
     <link href="assets/styles/outer/all.min.css" rel="stylesheet"/>
 
     <!-- Custom Stylesheet-->
-    <link href="assets/styles/outer/helper/bootstrap-select.min.css" rel="stylesheet"/>
-
-    <!-- Place your stylesheet here-->
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -193,23 +190,37 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="sorting-wrapper">
-                        <div class="row align-items-center">
-                            <div class="col-lg-2">
-                                <div class="mx-lg-n3 px-lg-3 d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="w-100 w-lg-20">
+                                <div class="pr-lg-3 d-flex justify-content-lg-between align-items-center font-size-10">
                                     <span class="color-secondary">SORT BY: </span>
-                                    <span class="custom-select-wrapper">
-                                        <select class="custom-select border-0">
-                                            <option>Best Match</option>
-                                            <option>Newest</option>
-                                            <option>Trending</option>
-                                            <option>Price</option>
-                                            <option>Best Rated</option>
+                                    <span class="custom-select-wrapper position-relative">
+                                        <select class="sort custom-select border-0 py-1 pl-1 pr-2 font-size-10 color-primary">
+                                            <option>BEST MATCH</option>
+                                            <option>NEWEST</option>
+                                            <option>TRENDING</option>
+                                            <option>PRICE</option>
+                                            <option>BEST RATED</option>
                                         </select>
                                     </span>
                                 </div>
                             </div>
-                            <div class="col-lg-8 border-left border-right py-3">Keyword</div>
-                            <div class="col-lg-2">Ship</div>
+                            <div class="w-100 w-lg-60 border-left border-right py-3">
+                                <div class="px-3 font-size-10"> KEYWORD</div>
+                            </div>
+                            <div class="w-100 w-lg-20">
+                                <div class="pl-lg-3 d-flex justify-content-lg-between align-items-center font-size-10">
+                                    <span class="color-secondary">SHIP TO: </span>
+                                    <span class="custom-select-wrapper position-relative">
+                                        <select class="ship custom-select border-0 py-1 pl-1 pr-2 font-size-10 color-primary">
+                                            <option>USA</option>
+                                            <option>UK</option>
+                                            <option>UAE</option>
+                                            <option>CANADA</option>
+                                        </select>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -560,7 +571,6 @@
 <script src="assets/scripts/outer/helper/bootstrap.min.js"></script>
 
 <!-- Place your scripts here-->
-<script src="assets/scripts/outer/helper/bootstrap-select.min.js"></script>
 
 <script src="assets/scripts/custom/script.js"></script>
 
