@@ -683,6 +683,10 @@
     border-right: 1px solid #dee2e6 !important;
   }
 
+  .product-item, .featured-product {
+    max-height: 375px;
+  }
+
 }
 
 /* Customized Media Queries (Min Width) */

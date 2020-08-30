@@ -109,7 +109,7 @@
 
 /*     /Carousel Banner      */
 
-/*     Sorting Banner      */
+/*     Sorting      */
 
 .sorting-wrapper {
 
@@ -160,9 +160,31 @@
 
 }
 
-/*     /Sorting Banner      */
+/*     /Sorting      */
 
-/*     Pagination Banner      */
+/*     Products      */
+
+.featured-product {
+
+  .featured-price {
+    top: 15px;
+    left: 15px;
+  }
+
+  .product-feature {
+    border: 1px solid #dee2e6 !important;
+    padding: 6px 10px 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+  }
+
+}
+
+/*     /Products      */
+
+/*     Pagination      */
 
 .pagination-wrapper {
 
@@ -195,7 +217,7 @@
 
 }
 
-/*     /Pagination Banner      */
+/*     /Pagination      */
 
 /*      Best Seller      */
 
