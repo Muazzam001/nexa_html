@@ -687,6 +687,34 @@
     max-height: 375px;
   }
 
+  .search-filters {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+  }
+  .sorting-wrapper {
+
+    form {
+
+      &.form-keyword {
+
+        .input-wrapper {
+          max-width: 130px;
+        }
+
+      }
+
+      &.form-price {
+
+        .input-wrapper {
+          max-width: 80px;
+        }
+
+      }
+
+    }
+
+  }
+
 }
 
 /* Customized Media Queries (Min Width) */
